@@ -1,6 +1,6 @@
-import DeeBox from '../../../../icon/mobile-logo.png';
-import SearchLogo from '../../../../icon/search-icon.png';
-import CartLogo from '../../../../icon/cart-icon.png';
+import DeeBox from '../../../icon/mobile-logo.png';
+import SearchLogo from '../../../icon/search-icon.png';
+import CartLogo from '../../../icon/cart-icon.png';
 import { Link } from 'react-router';
 import "./navSection.css";
 
