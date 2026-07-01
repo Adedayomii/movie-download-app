@@ -17,12 +17,12 @@ body {background: #EEF2FF;
   border-bottom-left-radius: 18px;
 }
 @media (max-width:768px){
-
-    .welcome-message{
-        display:none;
-    }
-
+  .login-container {
+    flex-direction: column;
+  }
 }
+
+
 .welcome-message {
   display: flex;
   justify-content: center;
