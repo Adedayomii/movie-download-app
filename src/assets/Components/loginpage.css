@@ -16,6 +16,13 @@ body {background: #EEF2FF;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
 }
+@media (max-width:768px){
+
+    .welcome-message{
+        display:none;
+    }
+
+}
 .welcome-message {
   display: flex;
   justify-content: center;
