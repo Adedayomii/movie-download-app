@@ -1,5 +1,5 @@
-import {movies} from '../../../../data/movies-list';
 import {NavSection} from '../Shared/NavSection';
+import { movies } from '../../../data/movies-list';
 
 
 import './downloadpage.css';
