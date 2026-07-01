@@ -1,0 +1,104 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color:#0F172A;
+  color: whitesmoke;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* left section */
+.left-section {
+  margin-left: 20px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deebox-logo {
+  width: 25px;
+  margin-right: 4px;
+}
+.dee-box {
+  color: red;
+}
+
+/* middle section */
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+.input-box {
+  height: 40px;
+  flex: 1;
+  font-size: 16px;
+  padding-left: 20px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(195, 193, 193);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search-logo {
+  width: 35px;
+  height: 36px;
+
+}
+.search-button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(195, 193, 193);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: -2px;
+  cursor: pointer;
+
+}
+
+/* right section */
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.cart-logo {
+  width: 45px;
+}
+
+.cart-container {
+  margin-right: 10px;
+  position: relative;
+}
+.cart-quantity {
+  background-color: transparent;
+  color: rgb(255, 166, 2);
+  font-weight: bolder;
+  position: absolute;
+  top: 3px;
+  right: 13px;
+}
+
+
+.cart-name {
+  margin-right: 30px;
+}
+.logout-container {
+  margin-right: 40px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/* routing */
+.logout {
+  text-decoration: none;
+  color: white;
+}

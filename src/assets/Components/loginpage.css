@@ -1,0 +1,135 @@
+body {background: #EEF2FF;
+  font-family: arial;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+/* left section */
+.welcome-message {
+  width: 200px;
+  height: 350px;
+  background-color:#F59E0B;
+
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.welcome-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+/* right section */
+.login-details {
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-login {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+.email-container,
+.password-container {
+  width: 80%;
+  height: 28px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 9px;
+  border: 1px solid rgb(169, 165, 165);
+}
+
+.forget-password-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+
+  margin-left: -11px;
+}
+.forget_password,
+.remember_me {
+  font-size: 11px;
+  font-weight: bold;
+}
+.remember_me {
+  display: flex;
+}
+.rme {
+  margin-top: 3px;
+  margin-right: 67px;
+}
+.forget_password {
+  color: blue;
+  cursor: pointer;
+
+}
+.forget_password:hover {
+  text-decoration: underline;
+}
+
+/* login button */
+/* .login-button {
+  width: 60%;
+  height: 30px;
+  background: #2563EB;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+  border: 1px solid rgb(182, 176, 176);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.15s;
+} */
+.login-button:hover {
+  opacity: 0.8;
+}
+.create-account {
+  font-size: 13px;
+}
+.sign-up {
+  color: rgb(3, 183, 3);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* routing */
+.login-to-download {
+  display: block;      
+  width: 60%;
+  height: 30px;
+  line-height: 30px;   
+
+  background: #2563EB;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  margin: 0 auto 20px; /* Centers the button */
+
+  border-radius: 10px;
+  border: 1px solid rgb(182, 176, 176);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  transition: opacity 0.15s;
+}

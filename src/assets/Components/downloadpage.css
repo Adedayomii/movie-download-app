@@ -1,0 +1,80 @@
+.download-page {
+  padding-top: 75px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 15px;
+  row-gap: 35px;
+}
+@media (max-width: 900px) {
+  .movie-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .movie-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 10px;
+  
+  
+}
+.image-container {
+  position: relative;
+}
+.movie-duration {
+  position: absolute;
+  bottom: 25px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 9px;
+}
+
+.movie-image {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.movie-name-container {
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  height: 30px;
+}
+.movie-price-container {
+  margin-bottom: 25px;
+  margin-top: 15px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cart-button {
+  width: 300px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(3, 165, 3);
+  color: whitesmoke;
+  border-radius: 18px;
+  border: 1px solid rgb(173, 170, 170);
+  margin-left: 25px;
+  cursor: pointer;
+  
+}
+.cart-button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,93 @@
+
+.checkout-grid {
+  display: grid;
+  grid-template-columns: 400px 320px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 100px;
+
+}
+.selected-product {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.product {
+  border: 2px solid gray;
+  padding-left: 15px;
+  border-radius: 18px;
+}
+.selected-movie {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+.selected-move-details {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding-bottom: 30px;
+  
+}
+
+
+.testImage {
+  width: 200px;
+  height: 100px;
+  margin-right: 20px;
+}
+.movie-name-price {
+  display: flex;
+  flex-direction: column;
+}
+.movie-name,
+.movie-price {
+  margin: 0;
+  margin-bottom: 15px;
+
+}
+
+/* summary section */
+.summary-section {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+  padding-left: 15px;
+  margin-left: 30px;
+  font-family: Arial;
+  border-radius: 18px;
+  
+}
+.order-summary {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  
+}
+.order-price {
+  margin-left: 150px;
+}
+.order-tax {
+  margin-left: 59px;
+}
+.order-total {
+  margin-left: 128px;
+}
+.place-your-order {
+  width: 70%;
+  height: 35px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  background-color: gold;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+
+  border-radius: 10px;
+  border: 1px solid rgb(174, 171, 171);
+}
