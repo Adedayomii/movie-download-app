@@ -5,9 +5,12 @@ export function LoginPage () {
   return (
     <section>
       <div className="login-container">
-        <div className="welcome-message">
-          Welcome Back!
+        <div className='left-section'>
+          <div className="welcome-message">
+            Welcome Back!
+          </div>
         </div>
+        
 
         <div className="login-details">
           <p className='user-login'>USER LOGIN</p>
